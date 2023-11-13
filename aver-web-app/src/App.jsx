@@ -1,31 +1,37 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import React, { useState } from 'react';
+import Recorder from './Recorder';
+import './App.css';
 
 function App() {
-  const [count, setCount] = useState(0)
+  const [count, setCount] = useState(0);
 
   return (
-    <>
-      <div class="header">
-        <div class = "header_left">
+    <div>
+      <div className="header">
+        <div className="header_left">
           <h2>American Veterans for Equal Rights</h2>
         </div>
-        <div class = "header_right">
+        <div className="header_right">
           <button>Login</button>
           <button>Signup</button>
         </div>
       </div>
-      <div class="mainbody">
+      <div className="mainbody">
         <h2>About</h2>
         <p>This is a website dedicated to recording the stories of American Veterans.</p>
+
+        <br /><br />
+
+        <div className="recorder">
+          <Recorder />
+        </div>
       </div>
-      <div class="footer">
-        
+
+      <div className="footer">
+        {/* Add your footer content here */}
       </div>
-    </>
-  )
+    </div>
+  );
 }
 
-export default App
+export default App;
