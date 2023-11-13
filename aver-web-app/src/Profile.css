@@ -1,0 +1,48 @@
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    width: 1000px;
+    align-items: center;
+  }
+  
+  .flex-container div {
+    height: 200px;
+    flex: 1;
+  }
+  
+  .flex-container .personal_info {
+    display: flex;
+    border: 4px solid rgb(9, 9, 112);
+    flex-direction: column;
+    width: 200px;
+  }
+  
+  .flex-container img {
+    max-height: 100%;
+    max-width: 100%;
+  }
+  
+  .flex-container .video_section {
+    display: flex;
+    border: 4px solid rgb(9, 9, 112);
+    height: 400px;
+    width: 1000px;
+    flex-direction: column;
+  }
+  
+  .flex-container .video_box {
+    display: flex;
+    border: 2px solid rgb(9, 9, 112);
+  
+  }
+  
+  .flex-container .video_item {
+    height: 100px;
+    width: 100px;
+  }
+
+  .footer p {
+    color: white;
+  }
