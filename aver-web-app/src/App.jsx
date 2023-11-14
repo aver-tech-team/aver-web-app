@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import Recorder from './Recorder';
 import './App.css';
 
 function App() {
@@ -21,10 +20,6 @@ function App() {
         <p>This is a website dedicated to recording the stories of American Veterans.</p>
 
         <br /><br />
-
-        <div className="recorder">
-          <Recorder />
-        </div>
       </div>
 
       <div className="footer">
