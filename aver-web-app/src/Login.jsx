@@ -1,11 +1,13 @@
 import React, { useState } from "react";
 import Form from "react-bootstrap/Form";
+import { useNavigate } from "react-router-dom";
 import "./Login.css";
 
 function Login() {
   const [userName, setUserName] = useState("");
   const [password, setPassword] = useState("");
   const [showPwd, setShowPwd] = useState(false);
+  const navigate = useNavigate();
 
   function handleUserNameInput(event) {
     setUserName(event.target.value);
@@ -65,7 +67,7 @@ function Login() {
       </div>
       <div className="row join-row">
         <div className="col text-center">
-          New to AVER? <a>Join Now</a>
+          <div className="join_now_text" onClick={() => navigate("/signup")}>New to AVER? Join Now</div>
         </div>
       </div>
     </>

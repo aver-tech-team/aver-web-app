@@ -16,7 +16,7 @@ function Home() {
         </div>
         <div className="header_right">
           <button onClick={() => navigate("/login")}>Login</button>
-          <button>Signup</button>
+          <button onClick={() => navigate("/signup")}>Signup</button>
         </div>
       </div>
       <div className="mainbody">
@@ -26,7 +26,9 @@ function Home() {
           Veterans.
         </p>
       </div>
-      <div className="footer"></div>
+      <div className="footer">
+        <p>© 2023 All rights reserved by AVER Chicago Chapter</p>
+      </div>
     </>
   );
 }
