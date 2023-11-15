@@ -10,13 +10,11 @@ import "./App.css";
 function App() {
   return (
     <>
-      <BrowserRouter>
-        <Routes>
-          <Route path="/signup" element={<Signup />}></Route>
-          <Route path="/login" element={<Login />}></Route>
-          <Route path="/" element={<Home />}></Route>
-        </Routes>
-      </BrowserRouter>
+      <Routes>
+        <Route path="/signup" element={<Signup />}></Route>
+        <Route path="/login" element={<Login />}></Route>
+        <Route path="/" element={<Home />}></Route>
+      </Routes>
     </>
   );
 }
