@@ -96,10 +96,18 @@ body{
   font-size: 12px;
 }
 
+.join_now_text {
+  display: inline-block;
+  color: white;
+}
+
 .join_now_text:hover {
   text-decoration: underline;
 }
 
-.join_now_text {
-  display: inline-block;
+.signup_page{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
