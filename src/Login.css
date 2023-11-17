@@ -1,6 +1,5 @@
 body{
   background: rgb(25,4,130);
-  background: linear-gradient(90deg, rgba(25,4,130,1) 0%, rgba(119,82,254,1) 47%, rgba(0,212,255,1) 100%);
   background-attachment: fixed;
   min-height: 100%;
   height: 100%;

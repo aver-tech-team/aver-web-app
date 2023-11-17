@@ -57,4 +57,5 @@ button {
   flex-direction: column;
   align-items: center;
   padding: 24px;
+  background: url(/images/cream_dust.png) repeat 0 0;
 }
